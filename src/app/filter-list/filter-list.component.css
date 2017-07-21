@@ -1,0 +1,6 @@
+filter-item {
+  border-top: 1px #7b7b7b solid;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}

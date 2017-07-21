@@ -1,0 +1,113 @@
+<div class="sity-body">
+  <header>
+    <div class="header-nav">
+      <div class="nav">
+        <ul>
+          <li><a routerLink="/">ASOS</a></li>
+          <li>MARKETPLACE</li>
+        </ul>
+      </div>
+    </div>
+    <nav>
+      <a id="logo" routerLink="/">
+        <img src="assets/objects_html/asos-logo.png">
+      </a>
+      <div class="search">
+        <input type="search" placeholder="{{ 'Поиск товара' | translate}}">
+        <a class="go"></a>
+      </div>
+
+      <div class="account-menu">
+        <div class="lang">
+          <a (click)="toggle()">
+            <span>Language </span>
+            <img src="assets/objects_html/lang-{{currLanguage}}.png">
+          </a>
+          <div class="lang-menu" [ngClass]="{visiable: openLangMenu}">
+            <a (click)="changeLanguage('en')">
+              <span>English</span>
+              <img src="assets/objects_html/lang-{{'en'}}.png">
+            </a>
+            <a (click)="changeLanguage('ru')">
+              <span>Русский</span>
+              <img src="assets/objects_html/lang-{{'ru'}}.png">
+            </a>
+          </div>
+        </div>
+
+        <div class="account">
+        <span>{{'Welcome to ASOS' | translate}}</span>
+        <a>{{'Join' | translate}}</a>
+        <span>|</span>
+        <a>{{'Sign In' | translate}}</a>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-hdrlinks-wrap">
+      <nav>
+        <ul class="floor-menus">
+          <li class="home"><a routerLink="/"></a></li>
+          <li class="women">
+            <a routerLink="/women" (click)="routeClick()">{{'Women' | translate | uppercase}}</a>
+            <app-route-list [gender]="'women'" (route)="routeClick()"></app-route-list>
+          </li>
+          <li class="men">
+            <a routerLink="/men" (click)="routeClick()" >{{'Men' | translate | uppercase}}</a>
+            <app-route-list [gender]="men" (route)="routeClick()"></app-route-list>
+          </li>
+        </ul>
+        <ul class="my-details">
+          <li><a>{{'Help' | translate}}</a></li>
+          <li><a>{{'My Account' | translate}}</a></li>
+          <li><a>{{'Saved Items' | translate}}</a></li>
+          <li><a>{{'Bag' | translate}} 0,00 (о)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <footer>
+    <div class="footer-links">
+      <ul>
+        <li>{{'Questions?' | translate | uppercase}}</li>
+        <li><a>{{'Track Order' | translate}}</a></li>
+        <li><a>{{'Delivery' | translate}}</a></li>
+        <li><a>{{'Returns' | translate}}</a></li>
+      </ul>
+      <ul>
+        <li>{{'What\'s in store' | translate | uppercase}}</li>
+        <li><a>{{'Women' | translate}}</a></li>
+        <li><a>{{'Men' | translate}}</a></li>
+        <li><a>{{'Buy Gift Vouchers' | translate}}</a></li>
+      </ul>
+      <ul>
+        <li>{{'Follow asos' | translate | uppercase}}</li>
+        <li><a>{{'Facebook' | translate}}</a></li>
+        <li><a>{{'Twitter' | translate}}</a></li>
+        <li><a>{{'YouTube' | translate}}</a></li>
+      </ul>
+      <ul>
+        <li>{{'More about asos' | uppercase}}</li>
+        <li><a>{{'Corporate Responsibility' | translate}}</a></li>
+        <li><a>{{'Jobs at ASOS' | translate}}</a></li>
+        <li><a>{{'Investors' | translate}}</a></li>
+      </ul>
+      <ul>
+        <li>{{'More asos sites' | uppercase}}</li>
+        <li><a>{{'Mobile and ASOS apps' | translate}}</a></li>
+        <li><a>{{'Marketplace' | translate}}</a></li>
+      </ul>
+    </div>
+    <div class="disclamer">
+      <ul>
+        <li><a>{{'Privacy & Cookies' | translate}}</a></li>
+        <li><a>{{'Terms & Conditions' | translate}}</a></li>
+        <li><a>{{'Accessibility' | translate}}</a></li>
+        <li><a>{{'About Us' | translate}}</a></li>
+      </ul>
+      <p>{{'The celebrities named or featured on asos.com have not endorsed recommended or approved the items offered on site' | translate}}</p>
+    </div>
+  </footer>
+</div>

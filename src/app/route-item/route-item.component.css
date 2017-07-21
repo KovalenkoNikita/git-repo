@@ -1,0 +1,13 @@
+li{
+  border: none;
+}
+a {
+  color: #202020;
+  text-decoration: none;
+  padding: 0;
+}
+a:hover {
+  background-color: #202020;
+  color: #fff;
+  padding: 0;
+}

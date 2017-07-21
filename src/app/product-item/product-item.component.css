@@ -1,0 +1,26 @@
+img {
+  width: 180px;
+  height: 230px;
+}
+.product {
+  padding-left: 16px;
+  height: 320px;
+}
+.product-title {
+  font-family: Tahoma, Arial, sans-serif;
+  color: #666;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  margin: 1px 0;
+  text-decoration: none;
+  width: 180px;
+}
+.product-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.product-price {
+  font-weight: bold;
+  font-size: 0.7em;
+  line-height: 1.2em;
+}

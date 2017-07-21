@@ -1,0 +1,18 @@
+.sub-floor-menu .section {
+  background-color: whitesmoke;
+  font-size: 0.65em;
+  line-height: 1.32em;
+  width: 180px;
+  border-right: 1px gray solid;
+  border-top: 2px #202020 solid;
+}
+.sub-floor-menu .section p {
+  padding: 5px 10px;
+  border-bottom: 1px lightgrey dashed;
+  margin: 0;
+}
+.sub-floor-menu ul {
+  text-transform: none;
+  padding: 10px;
+  list-style: none;
+}

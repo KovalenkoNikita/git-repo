@@ -1,0 +1,4 @@
+<p class="count-products">Всего найдено {{products.length}}</p>
+<div class="products">
+  <app-product-item *ngFor="let item of products" [item]="item"></app-product-item>
+</div>

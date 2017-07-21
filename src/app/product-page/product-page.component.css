@@ -1,0 +1,20 @@
+section {
+  width: 960px;
+  margin: 10px auto;
+  border-top: 1px #7b7b7b solid;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+aside {
+  width: 166px;
+  padding-top: 15px;
+  float: left;
+}
+product-list {
+  padding-top: 15px;
+}
+h2 {
+  margin-bottom: 10px;
+}

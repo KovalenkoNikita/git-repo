@@ -1,0 +1,8 @@
+.panel-title {
+  font-weight: bold;
+  font-size: 0.7em;
+  padding: 10px 0;
+}
+app-filter-option{
+  display: flex;
+}

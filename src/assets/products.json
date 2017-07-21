@@ -1,0 +1,125 @@
+{
+  "data":
+  [{
+    "title": "Майка с закругленным краем ASOS The Ultimate",
+    "price": 406.50,
+    "imgUrl": "8041758-1-navy.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Майки",
+      "color": "Темно-синий",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS The Ultimate Crew Neck T-Shirt",
+    "price": 487.80,
+    "imgUrl": "8041788-1-black.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Майки",
+      "color": "Черный",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS Vest With Seam Detail",
+    "price": 813.01,
+    "imgUrl": "8085991-1-black.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Майки",
+      "color": "Черный",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS Swing Cami with Double Layer",
+    "price": 975.61,
+    "imgUrl": "8145019-1-ivory.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Майки",
+      "color": "Белый",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS Swing Cami with Double Layer",
+    "price": 975.61,
+    "imgUrl": "8145028-1-black.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Джинсы",
+      "color": "Черный",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS Scoop Back Body With Super 80s High Leg",
+    "price": 975.61,
+    "imgUrl": "8326700-1-black.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Джинсы",
+      "color": "Розовый",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "ASOS Vest with Square Neck 3 Pack Save 20%",
+    "price": 1626.01,
+    "imgUrl": "8245865-1-blackwhitegrey.jpg",
+    "filters": {
+      "gender": "women",
+      "category": "Джинсы",
+      "color": "Серый",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "ASOS Collection"
+    }
+  },{
+    "title": "Синяя обтягивающая футболка с принтом тай-дай Bee Inspired  ",
+    "price": 2439.02,
+    "imgUrl": "8563628-1-blue.jpg",
+    "filters": {
+      "gender": "men",
+      "category": "Майки",
+      "color": "Синий",
+      "size": ["XS","S","M","L","XL","XXL"],
+      "brand": "Bee Inspired"
+    }
+  },{
+    "title": "Длинная футболка с принтом ASOS",
+    "price": 1138.21,
+    "imgUrl": "7868404-1-black.jpg",
+    "filters": {
+      "gender": "men",
+      "category": "Майки",
+      "color": "Черный",
+      "size": ["M","L"],
+      "brand": "ASOS"
+    }
+  },{
+    "title": "Белая майка с пальмовым принтом и эффектом выцветания River Island",
+    "price": 1219.51,
+    "imgUrl": "8568704-1-white.jpg",
+    "filters": {
+      "gender": "men",
+      "category": "Майки",
+      "color": "Белый",
+      "size": ["L","XL","XXL"],
+      "brand": "River Island"
+    }
+  },{
+    "title": "Песочные вельветовые брюки слим ASOS",
+    "price": 2601.62,
+    "imgUrl": "8246897-1-stone.jpg",
+    "filters": {
+      "gender": "men",
+      "category": "Джинсы",
+      "color": "Светло-серый",
+      "size": ["XS","S","M"],
+      "brand": "ASOS"
+    }
+  }]
+}

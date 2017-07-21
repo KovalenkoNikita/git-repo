@@ -1,0 +1,11 @@
+.products {
+  width: 784px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+p.count-products {
+  font-size: 0.9em;
+  color: #7b7b7b;
+}

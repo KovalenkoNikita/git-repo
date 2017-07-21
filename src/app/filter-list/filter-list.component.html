@@ -1,0 +1,6 @@
+<app-filter-item
+  *ngFor="let item of allFilterList"
+  [item]="item"
+  (changeCheckList)="changeFilterList($event)"
+></app-filter-item>
+

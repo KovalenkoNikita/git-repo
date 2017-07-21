@@ -1,0 +1,7 @@
+<p class="panel-title">{{item.title | uppercase}}</p>
+<app-filter-option
+  *ngFor="let option of item.options"
+  [option]="option"
+  [title]="item.title"
+  (changeCheckbox)="changeFilter($event)"
+></app-filter-option>

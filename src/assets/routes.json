@@ -1,0 +1,87 @@
+{
+  "women":
+  [{
+    "nameLink":"Новинки одежда",
+    "namePage":"new-in-clothing"
+  },{
+    "nameLink":"Новинки: обувь и аксессуары",
+    "namePage":"new-in-shoes-accs"
+  },{
+    "nameLink":"Аксессуары",
+    "namePage":"accessories"
+  },{
+    "nameLink":"Cпортивная одежда",
+    "namePage":"sportswear"
+  },{
+    "nameLink":"Топы ASOS Basic",
+    "namePage":"asos-basic"
+  },{
+    "nameLink":"Сумки и кошельки",
+    "namePage":"bags-purses"
+  },{
+    "nameLink":"Косметика",
+    "namePage":"beauty"
+  },{
+    "nameLink":"Пальто и куртки",
+    "namePage":"coats-jackets"
+  },{
+    "nameLink":"ASOS Curve",
+    "namePage":"curve-plus-size"
+  },{
+    "nameLink":"Дизайнеры",
+    "namePage":"designer-view-all"
+  },{
+    "nameLink":"Платья",
+    "namePage":"dresses"
+  },{
+    "nameLink":"Подарки",
+    "namePage":"gifts-for-her"
+  },{
+    "nameLink":"Худи и свитшоты",
+    "namePage":"hoodies-sweatshirts"
+  },{
+    "nameLink":"Джинсы",
+    "namePage":"jeans"
+  }],
+  "men":
+  [{
+    "nameLink":"Новинки одежда",
+    "namePage":"new-in-clothing"
+  },{
+    "nameLink":"Новинки: обувь и аксессуары",
+    "namePage":"new-in-shoes-accs"
+  },{
+    "nameLink":"Аксессуары",
+    "namePage":"accessories"
+  },{
+    "nameLink":"Cпортивная одежда",
+    "namePage":"sportswear"
+  },{
+    "nameLink":"Сумки и кошельки",
+    "namePage":"bags-purses"
+  },{
+    "nameLink":"Рубашки",
+    "namePage":"shirts"
+  },{
+    "nameLink":"Футболки-поло",
+    "namePage":"polo-shirts"
+  },{
+    "nameLink":"Пальто и куртки",
+    "namePage":"coats-jackets"
+  },{
+    "nameLink":"ASOS Curve",
+    "namePage":"curve-plus-size"
+  },{
+    "nameLink":"Дизайнеры",
+    "namePage":"designer-view-all"
+  },{
+    "nameLink":"Подарки",
+    "namePage":"gifts-for-her"
+  },{
+    "nameLink":"Худи и свитшоты",
+    "namePage":"hoodies-sweatshirts"
+  },{
+    "nameLink":"Джинсы",
+    "namePage":"jeans"
+  }]
+}

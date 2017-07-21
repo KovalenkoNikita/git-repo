@@ -1,0 +1,12 @@
+label {
+  color: #7b7b7b;
+  font-size: 0.7em;
+  margin: 3px;
+}
+input[type="checkbox"]:focus {
+  outline: none;
+}
+label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
