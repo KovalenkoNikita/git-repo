@@ -83,7 +83,6 @@ input[type="search"]:focus {
 .lang > a span {
   color: black;
   padding-right: 10px;
-  margin: 2px;
 }
 .lang-menu {
   display: none;
@@ -95,18 +94,19 @@ input[type="search"]:focus {
 .visiable {
   display: flex;
 }
-.lang-menu a {
+.lang a {
   width: 79px;
   padding: 5px;
   border-top:1px solid #7b7b7b;
 }
-.lang-menu a:first-child {
+.lang-menu a:first-child,
+.lang > a {
   border: none;
 }
 .lang-menu a:hover {
   background-color: #7b7b7b;
 }
-.lang-menu img {
+.lang img {
   float: right;
 }
 .account-menu {

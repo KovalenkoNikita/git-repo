@@ -20,7 +20,7 @@
       <div class="account-menu">
         <div class="lang">
           <a (click)="toggle()">
-            <span>Language </span>
+            <span>{{'Language' | translate}}</span>
             <img src="assets/objects_html/lang-{{currLanguage}}.png">
           </a>
           <div class="lang-menu" [ngClass]="{visiable: openLangMenu}">

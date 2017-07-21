@@ -62,5 +62,6 @@ export const LANG_RU_TRANS = {
   'Multi': 'Мульти',
   'size': 'размер',
   'brand': 'бренд',
-  'Total found': 'Всего найдено'
+  'Total found': 'Всего найдено',
+  'Language': 'Язык',
 };
