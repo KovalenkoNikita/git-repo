@@ -39,29 +39,17 @@ export class ProductPageComponent implements OnInit, OnDestroy {
         this.filteredProducts = productsList.filter(function (currItem) {
           return currItem.filters.gender === self.gender;
         });
+        console.log(this.currFilter);
         for (let option in this.currFilter) {
           this.filteredProducts = this.filteredProducts.filter(function (currItem) {
-            let newOption = '';
+            let newOption = option.toLowerCase();
             let listOptions = self.currFilter[option];
-            switch (option) {
-              case 'Категория':
-                newOption = 'category';
-                break;
-              case 'Цвет':
-                newOption = 'color';
-                break;
-              case 'Размер':
-                newOption = 'size';
-                break;
-              case 'Бренд':
-                newOption = 'brand';
-                break;
-            }
             let arrayOptions = listOptions.join();
             if (arrayOptions.indexOf(currItem.filters[newOption]) !== -1) {
               return true;
             }
             if (newOption === 'size') {
+              console.log('1');
               for (let key in currItem.filters[newOption]) {
                 if (arrayOptions.indexOf(currItem.filters[newOption][key]) !== -1) {
                   return true;

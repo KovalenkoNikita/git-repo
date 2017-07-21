@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { TranslateService } from './translate/translate.service';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
 
   private currLanguage: string = 'en';
   private openLangMenu: boolean = false;
@@ -15,9 +17,11 @@ export class AppComponent implements OnInit {
   private women: string = 'women';
   public translatedText: string;
   public supportedLanguages: any[];
+  private textSearch: string;
+  private subscription: Subscription;
   static onRouteClick = new Subject();
 
-  constructor(private _translate: TranslateService) { }
+  constructor(private _translate: TranslateService, private router: Router, private activateRoute: ActivatedRoute) {}
 
   ngOnInit() {
     // standing data
@@ -25,36 +29,43 @@ export class AppComponent implements OnInit {
       { display: 'English', value: 'en' },
       { display: 'Русский', value: 'ru' }
     ];
-
+    this.subscription = this.activateRoute.params.subscribe((params): any => {
+      console.log(params);
+    });
     // set current langage
-    this.currLanguage = 'ru';
     this.selectLang(this.currLanguage);
+    this.textSearch = this.refreshText('Search ASOS');
   }
-  toggle() {
+  public toggle() {
     this.openLangMenu = !this.openLangMenu;
   }
-  changeLanguage(lang: string) {
+  public changeLanguage(lang: string) {
     console.log(lang);
     this.currLanguage = lang;
     this.openLangMenu = false;
+    //this.router.navigate([this.currLanguage]);
+    this.selectLang(this.currLanguage);
+    this.textSearch = this.refreshText('Search ASOS');
   }
-  isCurrentLang(lang: string) {
+  public isCurrentLang(lang: string) {
     // check if the selected lang is current lang
     return lang === this._translate.currentLang;
   }
 
-  selectLang(lang: string) {
+  public selectLang(lang: string) {
     // set current lang;
     this._translate.use(lang);
-    this.refreshText();
   }
 
-  refreshText() {
+  public refreshText(text: string) {
     // refresh translation when language change
-    this.translatedText = this._translate.instant('hello world');
+    return this._translate.instant(text);
   }
 
   public routeClick() {
     AppComponent.onRouteClick.next();
+  }
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
   }
 }

@@ -1,6 +1,6 @@
 <div class="sub-floor-menu">
   <div class="section">
-    <p class="section-title">Все категории</p>
+    <p class="section-title">{{'Shop by product' | translate | uppercase}}</p>
     <ul>
       <app-route-item *ngFor="let link of currRouteList" [gender]="gender" [link]="link" (route)="sendClickUp()"></app-route-item>
     </ul>

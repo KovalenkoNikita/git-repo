@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import {Routes, RouterModule} from '@angular/router';
+import { RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -23,13 +23,14 @@ import { TranslateService } from './translate/translate.service';
 
 import { HttpService } from './http.service';
 
-const appRoutes: Routes = [
+/*const appRoutes: Routes = [
   { path: ':lang', component: HomePageComponent},
   { path: ':gender/:namePage', component: ProductPageComponent},
   { path: 'men', redirectTo: 'men/'},
   { path: 'women', redirectTo: 'women/'},
   { path: '**', component: NotFoundPageComponent }
-];
+];*/
+import { appRoutes } from './app.routes';
 
 @NgModule({
   declarations: [

@@ -1,6 +1,6 @@
 <section class="main">
   <aside>
-    <h2>{{ 'Сортировать по' | uppercase}}</h2>
+    <h2>{{ 'Refine by' | translate | uppercase}}</h2>
     <app-filter-list (getFilter)="getCurrFilter($event)"></app-filter-list>
   </aside>
   <app-product-list [products]="filteredProducts"></app-product-list>

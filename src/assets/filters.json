@@ -1,16 +1,16 @@
 {
   "data":
   [{
-    "title": "Категория",
-    "options": ["Майки","Куртки","Аксессуары","Джинсы"]
+    "title": "Category",
+    "options": ["Jerseys","Jackets","Accessories","Jeans"]
   },{
-    "title": "Цвет",
-    "options": ["Черный","Красный","Белый","Зеленый","Желтый","Мульти"]
+    "title": "Color",
+    "options": ["Black","Red","White","Green","Yellow","Multi"]
   },{
-    "title": "Размер",
+    "title": "Size",
     "options": ["XS","S","M","L","XL","XXL"]
   },{
-    "title": "Бренд",
+    "title": "Brand",
     "options": ["2XU","Adidas","BAN DO","ASOS Collection"]
   }]
 }

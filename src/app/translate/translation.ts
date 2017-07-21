@@ -8,7 +8,7 @@ import { LANG_RU_NAME, LANG_RU_TRANS } from './lang-ru';
 export const TRANSLATIONS = new OpaqueToken('translations');
 
 // all translations
-let dictionary = {
+const dictionary = {
   [LANG_EN_NAME]: LANG_EN_TRANS,
   [LANG_RU_NAME]: LANG_RU_TRANS
 };

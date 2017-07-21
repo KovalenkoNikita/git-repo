@@ -1,87 +1,87 @@
 {
   "women":
   [{
-    "nameLink":"Новинки одежда",
+    "nameLink":"New In: Clothing",
     "namePage":"new-in-clothing"
   },{
-    "nameLink":"Новинки: обувь и аксессуары",
+    "nameLink":"New In: Shoes & Acc",
     "namePage":"new-in-shoes-accs"
   },{
-    "nameLink":"Аксессуары",
+    "nameLink":"Accessories",
     "namePage":"accessories"
   },{
-    "nameLink":"Cпортивная одежда",
+    "nameLink":"Sportswear",
     "namePage":"sportswear"
   },{
-    "nameLink":"Топы ASOS Basic",
+    "nameLink":"Asos Basic Tops",
     "namePage":"asos-basic"
   },{
-    "nameLink":"Сумки и кошельки",
+    "nameLink":"Bags & Purses",
     "namePage":"bags-purses"
   },{
-    "nameLink":"Косметика",
+    "nameLink":"Beauty",
     "namePage":"beauty"
   },{
-    "nameLink":"Пальто и куртки",
+    "nameLink":"Coats & Jackets",
     "namePage":"coats-jackets"
   },{
-    "nameLink":"ASOS Curve",
+    "nameLink":"Curve & Plus Size",
     "namePage":"curve-plus-size"
   },{
-    "nameLink":"Дизайнеры",
+    "Designer":"Designer",
     "namePage":"designer-view-all"
   },{
-    "nameLink":"Платья",
+    "nameLink":"Dresses",
     "namePage":"dresses"
   },{
-    "nameLink":"Подарки",
+    "nameLink":"Gifts",
     "namePage":"gifts-for-her"
   },{
-    "nameLink":"Худи и свитшоты",
+    "nameLink":"Hoodies & Sweatshirts",
     "namePage":"hoodies-sweatshirts"
   },{
-    "nameLink":"Джинсы",
+    "nameLink":"Jeans",
     "namePage":"jeans"
   }],
   "men":
   [{
-    "nameLink":"Новинки одежда",
+    "nameLink":"New In: Clothing",
     "namePage":"new-in-clothing"
   },{
-    "nameLink":"Новинки: обувь и аксессуары",
+    "nameLink":"New In: Shoes & Acc",
     "namePage":"new-in-shoes-accs"
   },{
-    "nameLink":"Аксессуары",
+    "nameLink":"Accessories",
     "namePage":"accessories"
   },{
-    "nameLink":"Cпортивная одежда",
+    "nameLink":"Sportswear",
     "namePage":"sportswear"
   },{
-    "nameLink":"Сумки и кошельки",
+    "nameLink":"Bags & Purses",
     "namePage":"bags-purses"
   },{
-    "nameLink":"Рубашки",
+    "nameLink":"Shirts",
     "namePage":"shirts"
   },{
-    "nameLink":"Футболки-поло",
+    "nameLink":"Polo Shirts",
     "namePage":"polo-shirts"
   },{
-    "nameLink":"Пальто и куртки",
+    "nameLink":"Coats & Jackets",
     "namePage":"coats-jackets"
   },{
-    "nameLink":"ASOS Curve",
+    "nameLink":"Curve & Plus Size",
     "namePage":"curve-plus-size"
   },{
-    "nameLink":"Дизайнеры",
+    "nameLink":"Designer",
     "namePage":"designer-view-all"
   },{
-    "nameLink":"Подарки",
+    "nameLink":"Gifts",
     "namePage":"gifts-for-her"
   },{
-    "nameLink":"Худи и свитшоты",
+    "nameLink":"Hoodies & Sweatshirts",
     "namePage":"hoodies-sweatshirts"
   },{
-    "nameLink":"Джинсы",
+    "nameLink":"Jeans",
     "namePage":"jeans"
   }]
 }

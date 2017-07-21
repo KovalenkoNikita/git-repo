@@ -252,7 +252,8 @@ footer {
 .disclamer {
   border-top: 1px lightslategray solid;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 .disclamer ul {
   list-style: none;
@@ -261,7 +262,7 @@ footer {
 .disclamer ul {
   list-style: none;
   display: flex;
-  margin-top: 10px;
+  margin: 10px auto 0px;
 }
 .disclamer ul li > a {
   color: #202020;
