@@ -1,0 +1,19 @@
+{
+  "data":
+  [{
+    "title": "Questions?",
+    "links":["Track Order","Delivery","Returns"]
+  },{
+    "title": "What's in store",
+    "links":["Women","Men","Buy Gift Vouchers"]
+  },{
+    "title": "Follow asos",
+    "links":["Facebook","Twitter","YouTube"]
+  },{
+    "title": "More about asos",
+    "links":["Corporate Responsibility","Jobs at ASOS","Investors"]
+  },{
+    "title": "More asos sites",
+    "links":["Mobile and ASOS apps","Marketplace"]
+  }]
+}
