@@ -70,35 +70,7 @@
   </div>
   <footer>
     <div class="footer-links">
-      <ul>
-        <li>{{'Questions?' | translate | uppercase}}</li>
-        <li><a>{{'Track Order' | translate}}</a></li>
-        <li><a>{{'Delivery' | translate}}</a></li>
-        <li><a>{{'Returns' | translate}}</a></li>
-      </ul>
-      <ul>
-        <li>{{'What\'s in store' | translate | uppercase}}</li>
-        <li><a>{{'Women' | translate}}</a></li>
-        <li><a>{{'Men' | translate}}</a></li>
-        <li><a>{{'Buy Gift Vouchers' | translate}}</a></li>
-      </ul>
-      <ul>
-        <li>{{'Follow asos' | translate | uppercase}}</li>
-        <li><a>{{'Facebook' | translate}}</a></li>
-        <li><a>{{'Twitter' | translate}}</a></li>
-        <li><a>{{'YouTube' | translate}}</a></li>
-      </ul>
-      <ul>
-        <li>{{'More about asos' | uppercase}}</li>
-        <li><a>{{'Corporate Responsibility' | translate}}</a></li>
-        <li><a>{{'Jobs at ASOS' | translate}}</a></li>
-        <li><a>{{'Investors' | translate}}</a></li>
-      </ul>
-      <ul>
-        <li>{{'More asos sites' | uppercase}}</li>
-        <li><a>{{'Mobile and ASOS apps' | translate}}</a></li>
-        <li><a>{{'Marketplace' | translate}}</a></li>
-      </ul>
+      <app-footer-links *ngFor="let linkList of footerLinks" [linkList]="linkList"></app-footer-links>
     </div>
     <div class="disclamer">
       <ul>

@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+  width: 188px;
+}
+ul li:first-child {
+  color: #202020;
+  margin-bottom: 5px;
+  font-size: 0.7em;
+  line-height: 1.6em;
+}
+ul li > a{
+  color: #7b7b7b;
+  font-size: 0.6em;
+  line-height: 0.5em;
+}
+ul li > a:hover {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: underline;
+}

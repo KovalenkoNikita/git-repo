@@ -16,6 +16,8 @@ export class HttpService {
 
   public getFilters() {
     return this.http.get('./assets/filters.json');
-
+  }
+  public getFooterLinks() {
+    return this.http.get('./assets/footerLinks.json');
   }
 }

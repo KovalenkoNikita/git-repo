@@ -224,30 +224,10 @@ footer {
   padding: 10px;
   border-top: 1px lightslategray solid;
 }
-.footer-links,.disclamer {
+.footer-links,.disclamer{
   display: flex;
   margin: 0 0 20px;
   padding: 0 15px 0 15px;
-}
-.footer-links ul {
-  list-style: none;
-  width: 188px;
-}
-.footer-links ul li:first-child {
-  color: #202020;
-  margin-bottom: 5px;
-  font-size: 0.7em;
-  line-height: 1.6em;
-}
-.footer-links ul li > a{
-  color: #7b7b7b;
-  font-size: 0.6em;
-  line-height: 0.5em;
-}
-.footer-links ul li > a:hover {
-  justify-content: space-around;
-  flex-wrap: wrap;
-  text-decoration: underline;
 }
 .disclamer {
   border-top: 1px lightslategray solid;
